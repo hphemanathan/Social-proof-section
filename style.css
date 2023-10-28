@@ -1,3 +1,5 @@
+/* font-family: 'League Spartan', sans-serif; */
+
 /* ----------------------------------------- */
 /* CSS Reset */
 /* ----------------------------------------- */
@@ -78,4 +80,21 @@ h4 {
 
 :root {
   /* Colors */
+  --bg-white: hsl(0, 0%, 100%);
+  --bg-star: hsl(300, 24%, 96%);
+  --bg-testimonial: hsl(300, 43%, 22%);
+  --text-heading: hsl(300, 43%, 22%);
+  --text-light: hsl(303, 10%, 53%);
+  --text-dark: hsl(333, 80%, 67%);
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+  background-color: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
