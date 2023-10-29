@@ -98,3 +98,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.container {
+  margin-top: auto;
+  width: min(85%);
+}
