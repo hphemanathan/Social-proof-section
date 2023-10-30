@@ -205,6 +205,11 @@ body {
   width: 100%;
   margin-bottom: var(--mar-b-3);
   border: 2px solid red;
+
+  @media (min-width: 70em) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .stars-card {
@@ -225,7 +230,19 @@ body {
 
 .stars-card-1 {
   @media (min-width: 70em) {
-    margin-right: auto;
+    align-self: flex-start;
+  }
+}
+
+.stars-card-2 {
+  @media (min-width: 70em) {
+    align-self: center;
+  }
+}
+
+.stars-card-2 {
+  @media (min-width: 70em) {
+    align-self: flex-end;
   }
 }
 
