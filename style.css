@@ -156,8 +156,13 @@ body {
 .top {
   @media (min-width: 70em) {
     display: flex;
-    justify-content: space-between;
-    column-gap: 8rem;
+    justify-content: flex-start;
+  }
+}
+
+.about {
+  @media (min-width: 70em) {
+    flex: 2 0 26rem;
   }
 }
 
@@ -207,8 +212,7 @@ body {
   border: 2px solid red;
 
   @media (min-width: 70em) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -240,7 +244,7 @@ body {
   }
 }
 
-.stars-card-2 {
+.stars-card-3 {
   @media (min-width: 70em) {
     align-self: flex-end;
   }
