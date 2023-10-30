@@ -90,6 +90,7 @@ h4 {
   /* Padding */
 
   --pad-tb-1: 1rem 0;
+  --pad-tb-1_25: 1.25rem 0;
   --pad-tb-2_5-rl-2: 2.5rem 2rem;
   --pad-rl-1_75: 0 1.75rem;
   --pad-rl-2: 0 2rem;
@@ -229,6 +230,7 @@ body {
 
   @media (min-width: 70em) {
     flex-direction: row;
+    padding: 1.25rem 3rem 1.25rem 2rem;
   }
 }
 
