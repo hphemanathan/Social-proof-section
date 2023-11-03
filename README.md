@@ -19,8 +19,7 @@ Social proof section using HTML5, CSS3 with Flexbox
 
 ### Screenshot
 
-file:///home/hemanathan/Desktop/Responsively-Screenshots/MacBook%20Pro-1698987904773.jpeg
-
+![MacBook Pro-1698987904773](https://github.com/hphemanathan/Social-proof-section/assets/18226707/4830f860-152c-48ab-957c-0a2e85b1c298)
 
 
 ### Links
